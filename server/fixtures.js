@@ -18,8 +18,8 @@ if(Posts.find().count() === 0) {
     });
 
     Posts.insert({
-        title: 'Random Meteor Book'
-        author: 'Souradeep De'
+        title: 'Random Meteor Book',
+        author: 'Souradeep De',
         url: 'http://example.com'
     })
 }
